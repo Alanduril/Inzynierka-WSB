@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerJump : MonoBehaviour
 {
     Rigidbody2D rb;
-    [SerializeField] int jumpPower;
+    [SerializeField] int jumpPower=5;
     // Start is called before the first frame update
     void Start()
     {
